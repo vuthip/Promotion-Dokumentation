@@ -1,0 +1,38 @@
+district:
+
+  id: Q001
+
+  buildings:
+
+    - id: B001
+
+      building_type: MFH
+      efficiency_class: J
+      renovation_status: "0"
+      number_of_units: 8
+      current_system_type:
+        type: GB
+        remaining_lifetime: 5
+
+      pv_system:
+        enabled: false
+        p_peak: 30
+        capex: 45000
+        lifetime: 25
+        maintenance_rate: 0.01
+
+    - id: B002
+      building_type: MFH
+      efficiency_class: H
+      renovation_status: "0"
+      number_of_units: 8
+      current_system_type:
+        type: GB
+        remaining_lifetime: 10
+
+      pv_system:
+        enabled: true
+        p_peak: 20
+        capex: 30000
+        lifetime: 25
+        maintenance_rate: 0.01
